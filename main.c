@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 
-int n;
-float x[100], y[100];
+
 
 int main()
 {
-    int i;
+    int i, n;
+    float x[100], y[100];
     float Xsum = 0, Ysum = 0, Xavg = 0, Yavg = 0, r, p, q, NR, DR;
     float XYS = 0, XSS = 0, m, c, DET, DX, DY;
     float t, u, v, XCS = 0, XQS = 0, XSYS = 0, det, dx, dy, dz;
@@ -130,5 +130,7 @@ int main()
     getchar();
     return 0;
 }
+
+
 
 
